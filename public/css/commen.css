@@ -135,6 +135,9 @@ p {
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 6px;
 }
+.navbar_frame .top-menu-box .box-icon-box:hover {
+  outline: 1px solid yellow;
+}
 
 .navbar_frame .box-icon-box img {
   width: 22px;

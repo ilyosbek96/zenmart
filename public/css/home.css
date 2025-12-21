@@ -259,6 +259,9 @@
   border: 1px solid #eaeaea;
   border-radius: 150px;
 }
+.shop_category_frame .category-box .category-img-box:hover {
+  outline: 1px solid #041e42;
+}
 .shop_category_frame .category-box span {
   margin-top: 15px;
   font-family: "jost";
