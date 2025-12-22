@@ -36,6 +36,52 @@
 .kantiner .category-top a:hover {
   border-bottom: 2px solid #041e42;
 }
+/* pagionation */
+.kantiner .pagionation-box {
+  margin-top: 30px;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.kantiner .pagionation-box .pagionation-main {
+  width: auto;
+  height: 24px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.pagionation-main img {
+  cursor: pointer;
+}
+.kantiner .pagionation-main .pagionation-dot {
+  margin: 0 20px;
+  display: flex;
+  flex-direction: row;
+}
+.kantiner .pagionation-dot .dot {
+  width: 20px;
+  height: 20px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 50%;
+}
+.kantiner .pagionation-dot .dot.active {
+  border: 2px solid rgba(17, 33, 55, 1);
+}
+.kantiner .pagionation-dot .dot div {
+  width: 4px;
+  height: 4px;
+  background: rgba(17, 33, 55, 1);
+  border-radius: 50%;
+}
+/* pagionation */
 
 /* header-frame */
 .header-frame {
@@ -312,6 +358,7 @@
 .selling-product-frame .next_prev-box img {
   position: absolute;
   top: 50%;
+  cursor: pointer;
 }
 .selling-product-frame .product-wrapper .product-boxes {
   position: relative;
@@ -445,4 +492,5 @@
 
   color: #626974;
 }
+
 /* selling-product */
