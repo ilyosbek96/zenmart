@@ -533,7 +533,7 @@
 .spec_product-frame .kantiner {
   flex-direction: column;
 }
-.kantiner .spec_product-wrapper {
+.spec_product-frame .kantiner .spec_product-wrapper {
   position: relative;
   margin-top: 35px;
   width: 100%;
@@ -542,7 +542,7 @@
   display: flex;
   flex-direction: row;
 }
-.spec_product-wrapper .big_product-box {
+.spec_product-frame .spec_product-wrapper .big_product-box {
   position: relative;
   padding: 30px;
   width: 664px;
@@ -555,14 +555,14 @@
   background: #f3f5f6;
   border-radius: 6px;
 }
-.big_product-box .big_product-content {
+.spec_product-frame .big_product-box .big_product-content {
   width: 160px;
 
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
 }
-.big_product-content span {
+.spec_product-frame .big_product-content span {
   font-family: "Jost";
   font-style: normal;
   font-size: 15px;
@@ -571,7 +571,7 @@
 
   color: #041e42;
 }
-.big_product-content p {
+.spec_product-frame .big_product-content p {
   margin: 7px 2px;
 
   font-family: "Jost";
@@ -582,7 +582,7 @@
 
   color: #041e42;
 }
-.big_product-content a {
+.spec_product-frame .big_product-content a {
   font-family: "Jost";
   font-style: normal;
   font-size: 15px;
@@ -591,13 +591,13 @@
 
   color: #041e42;
 }
-.big_product-box img {
+.spec_product-frame .big_product-box img {
   position: absolute;
   width: 322px;
   height: 309px;
   right: 5%;
 }
-.spec_product-wrapper .small_product-wrapper {
+.spec_product-frame .spec_product-wrapper .small_product-wrapper {
   margin-left: 30px;
   width: 620px;
   height: 368px;
@@ -606,7 +606,7 @@
   flex-direction: row;
   flex-wrap: wrap;
 }
-.small_product-wrapper .small_product-box {
+.spec_product-frame .small_product-wrapper .small_product-box {
   position: relative;
   padding: 30px;
   width: 293px;
@@ -619,14 +619,14 @@
   background: #f3f5f6;
   border-radius: 6px;
 }
-.small_product-box:nth-child(odd) {
+.spec_product-frame .small_product-box:nth-child(odd) {
   margin-right: 30px;
 }
-.small_product-box .small_product-content {
+.spec_product-frame .small_product-box .small_product-content {
   display: flex;
   flex-direction: column;
 }
-.small_product-content strong {
+.spec_product-frame .small_product-content strong {
   font-family: "Jost";
   font-style: normal;
   font-size: 16px;
@@ -635,7 +635,7 @@
 
   color: #041e42;
 }
-.small_product-content span {
+.spec_product-frame .small_product-content span {
   font-family: "Jost";
   font-style: normal;
   font-size: 13px;
@@ -644,9 +644,9 @@
 
   color: #626974;
 }
-.small_product-box img {
+.spec_product-frame .small_product-box img {
   position: absolute;
   right: 30px;
-  top: 40px;
+  bottom: 15px;
 }
 /* spec_product-frame */
