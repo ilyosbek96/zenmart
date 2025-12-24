@@ -13,6 +13,10 @@
   justify-content: space-between;
   align-items: center;
 }
+.kantiner .category-top div {
+  display: flex;
+  flex-direction: row;
+}
 .kantiner .category-top span {
   font-family: "jost";
   font-style: normal;
@@ -24,6 +28,7 @@
   color: #041e42;
 }
 .kantiner .category-top a {
+  margin-left: 30px;
   font-family: "jost";
   font-style: normal;
   font-weight: 500;
@@ -89,7 +94,143 @@
   height: 2px;
   background-color: #041e42;
 }
+/* next_prev-box */
+.kantiner .next_prev-box {
+  width: 25px;
+}
+.kantiner .next_prev-box img {
+  position: absolute;
+  top: 50%;
+  cursor: pointer;
+}
+/* next_prev-box */
 
+/* product card */
+.kantiner .product-box {
+  width: 306px;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+.kantiner .product-box .product-img-box {
+  width: 100%;
+  height: 280px;
+}
+.kantiner .product-box .hover-box {
+  display: none;
+  width: 100%;
+  height: 100%;
+
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.kantiner .hover-box button {
+  margin-bottom: 10px;
+  width: 260px;
+  height: 50px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  outline: none;
+
+  border-radius: 6px;
+  box-shadow: 0px 5px 20px 0px rgba(0, 83, 246, 0.1);
+  background: rgba(0, 83, 246, 1);
+
+  font-family: "Jost";
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: center;
+
+  color: #ffffff;
+}
+
+.kantiner .product-img-box:hover .hover-box {
+  display: flex;
+}
+.kantiner .product-content-box {
+  padding: 5px 22px;
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+}
+.kantiner .product-content-box .product_title {
+  font-family: "Jost";
+  font-style: normal;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 22px;
+  text-transform: uppercase;
+
+  color: #626974;
+}
+.kantiner .product-content-box .product_desc {
+  margin-top: 7px;
+  height: 56px;
+  font-family: "Jost";
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 28px;
+  overflow: hidden;
+  text-transform: capitalize;
+
+  color: #041e42;
+}
+.kantiner .product-content-box .review-box {
+  margin-top: 7px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.kantiner .review-box img {
+  margin-right: 5px;
+}
+.kantiner .review-box span {
+  margin-left: 10px;
+
+  font-family: "Jost";
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+
+  color: #626974;
+}
+.kantiner .product-content-box .price-box {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.kantiner .price-box strong {
+  font-family: "Jost";
+  font-style: normal;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+
+  color: #041e42;
+}
+.kantiner .price-box span {
+  margin-left: 10px;
+  font-family: "Jost";
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  text-decoration-line: line-through;
+
+  color: #626974;
+}
 /* header-frame */
 .header-frame {
   position: relative;
@@ -359,14 +500,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.selling-product-frame .product-wrapper .next_prev-box {
-  width: 25px;
-}
-.selling-product-frame .next_prev-box img {
-  position: absolute;
-  top: 50%;
-  cursor: pointer;
-}
+
 .selling-product-frame .product-wrapper .product-boxes {
   position: relative;
   width: 1224px;
@@ -650,3 +784,51 @@
   bottom: 15px;
 }
 /* spec_product-frame */
+.home-page .tv-frame {
+  position: relative;
+  margin-top: 90px;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.tv-frame .kantiner {
+  flex-direction: column;
+}
+.tv-frame .kantiner .tv-wrapper {
+  margin-top: 30px;
+  width: 100%;
+  height: auto;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.tv-frame .tv-wrapper .tv-product-boxes {
+  width: 1300px;
+  height: 452px;
+
+  display: flex;
+  flex-direction: row;
+}
+.tv-frame .tv-product-boxes .tv-product-box {
+  width: 260px;
+  height: 452px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background: #ffffff;
+}
+.tv-frame .tv-product-box .product-img {
+  width: 100%;
+  height: 280px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
