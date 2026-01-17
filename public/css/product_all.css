@@ -495,6 +495,7 @@
 
   display: flex;
   flex-direction: row;
+  align-items: center;
   justify-content: space-between;
 }
 .shop-page .pro-pagination-box .next-prev-btn {
@@ -515,11 +516,12 @@
   height: 15px;
 }
 .shop-page .pro-pagination-box .pagination-number-wrap {
-  width: 100%;
+  width: 312px;
   height: auto;
 
   display: flex;
   flex-direction: row;
+
   justify-content: space-between;
 }
 .shop-page .pagination-number-wrap .pagination-number-box {
