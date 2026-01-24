@@ -1,0 +1,300 @@
+.login-frame {
+  width: 100%;
+  height: 1728px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+
+  background: #eaeaea;
+
+  form {
+    width: 744px;
+    height: 831px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    background: #ffffff;
+
+    span {
+      font-family: var(--font);
+      font-style: normal;
+      font-size: 28px;
+      font-weight: 500;
+      line-height: 40px;
+      text-align: left;
+
+      color: #041e42;
+    }
+    .login-input-wrapper {
+      width: 609px;
+      height: 633px;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
+      .login-input-box {
+        width: 100%;
+        height: 115px;
+
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+
+        label {
+          font-family: var(--font);
+          font-style: normal;
+          font-size: 16px;
+          font-weight: 500;
+          line-height: 28px;
+
+          color: #041e42;
+        }
+
+        input {
+          padding: 25px;
+          width: 100%;
+          height: 72px;
+
+          box-sizing: border-box;
+          border: 1px solid #eaeaea;
+          border-radius: 6px;
+          background: #ffffff;
+
+          font-family: var(--font);
+          font-style: normal;
+          font-size: 20px;
+          font-weight: 400;
+          line-height: 22px;
+          text-transform: capitalize;
+
+          color: #626974;
+
+          &:focus {
+            border: 1px solid #041e42;
+          }
+        }
+      }
+      .checkbox {
+        width: 100%;
+        height: 28px;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        input {
+          margin-right: 16px;
+          width: 26px;
+          height: 21px;
+
+          box-sizing: border-box;
+          border: 1px solid rgba(4, 30, 66, 1);
+        }
+        div {
+          width: 564px;
+          height: 28px;
+
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: space-between;
+
+          strong {
+            font-family: var(--font);
+            font-style: normal;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 28px;
+
+            color: #041e42;
+          }
+          span {
+            font-family: var(--font);
+            font-style: normal;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 28px;
+
+            columns: #443297;
+          }
+        }
+      }
+      a {
+        width: 100%;
+        height: 52px;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        box-sizing: border-box;
+        border: 1px solid #f5c34b;
+        border-radius: 6px;
+        box-shadow: 0px 5px 20px 0px rgba(245, 195, 75, 0.15);
+        background: #f5c34b;
+
+        font-family: var(--font);
+        font-style: normal;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 22px;
+
+        color: #041e42;
+      }
+
+      .info {
+        width: 100%;
+        height: 28px;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+        font-family: var(--font);
+        font-style: normal;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 28px;
+
+        color: #041e42;
+      }
+      .chiziq-box {
+        width: 100%;
+        height: auto;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        div {
+          width: 304px;
+          height: 1px;
+
+          background: #626974;
+        }
+        span {
+          width: 24px;
+          height: 28px;
+
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: center;
+
+          font-family: var(--font);
+          font-style: normal;
+          font-size: 16px;
+          font-weight: 400;
+          line-height: 28px;
+
+          color: #041e42;
+        }
+      }
+      .login-media-box {
+        width: 100%;
+        height: 59px;
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+
+        a {
+          width: 132px;
+          height: 100%;
+
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          box-sizing: border-box;
+          border: 1px solid #1967d2;
+          border-radius: 8px;
+          background: #ffffff;
+
+          font-style: normal;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 17px;
+          text-transform: capitalize;
+
+          color: #1967d2;
+        }
+        .google {
+          width: 132px;
+          height: 100%;
+
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          box-sizing: border-box;
+          border: 1px solid #d93025;
+          border-radius: 8px;
+          background: #ffffff;
+
+          font-family: var(--font);
+          font-style: normal;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 17px;
+          text-transform: capitalize;
+
+          color: #d93025;
+        }
+        .twitter {
+          width: 132px;
+          height: 100%;
+
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          box-sizing: border-box;
+          border: 1px solid #2d9adc;
+          border-radius: 8px;
+          background: #ffffff;
+
+          font-family: var(--font);
+          font-style: normal;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 17px;
+          text-transform: capitalize;
+
+          color: #2d9adc;
+        }
+        .apple {
+          width: 132px;
+          height: 100%;
+
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          box-sizing: border-box;
+          border: 1px solid #041e42;
+          border-radius: 8px;
+          background: #ffffff;
+
+          font-family: var(--font);
+          font-style: normal;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 17px;
+          text-transform: capitalize;
+
+          color: #041e42;
+        }
+      }
+    }
+  }
+}
